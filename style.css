@@ -190,7 +190,7 @@ a {
 }
 
 .profile_profileImg {
-    max-width: 250px;
+    max-width: 1000px;
     border-radius: 50%;
     transition: transform 0.3s, box-shadow 0.3s;
 }
