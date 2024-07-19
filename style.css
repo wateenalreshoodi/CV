@@ -60,7 +60,7 @@ body {
 .navbar a {
     color: var(--background-color);
     text-decoration: none;
-    padding: 12px;
+    padding: 16px;
     font-size: 17px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -145,9 +145,7 @@ a {
         padding: 3rem;
         gap: 7rem;
     }
-    .navbar{
-        padding:1rem;
-}
+
 
 .profile {
     grid-column: 1/-1;
@@ -183,6 +181,10 @@ a {
     .group-3 {
         flex-direction: column;
     }
+    .img{
+        max-width:250px:
+        }
+        
 }
 
 /* Profile */
@@ -198,8 +200,8 @@ a {
 }
 
 .profile_profileImg img {
-    width: 100%;
-    height: 80px;
+    width:80px;
+    heigth:80px;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
