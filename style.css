@@ -72,7 +72,8 @@ body {
 
 /* Common styles */
 img {
-    width: 100%;
+    width: 50%;
+    height: auto;
 }
 
 a {
@@ -198,6 +199,7 @@ a {
 
 .profile_profileImg img {
     width: 100%;
+    height: auto;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
@@ -286,6 +288,7 @@ hr {
         margin: 0 auto;
     }
 }
+
 
 @keyframes pulse {
     0% {
