@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Default Dark Mode Styles */
 /* Default Dark Mode Styles */
 :root {
     --primary-color: #0055d4;
@@ -17,7 +17,7 @@
 }
 
 /* Light Mode Styles */
-body.light-mode {
+[data-bs-theme="light"] {
     --primary-color: #0055d4;
     --text-color: #333;
     --background-color: #ffffff;
@@ -25,8 +25,15 @@ body.light-mode {
     --form-text-color: #000000;
 }
 
+/* Dark Mode Styles */
+[data-bs-theme="dark"] {
+    --primary-color: #0055d4;
+    --text-color: #727171;
+    --background-color: #070707;
+    --form-background: #333;
+    --form-text-color: white;
+}
 
-/* General Body Styling */
 body {
     font-family: Inter, sans-serif;
     background-color: var(--background-color);
@@ -40,7 +47,7 @@ body {
     padding: 0.5rem;
 }
 
-.navbar_container {
+.navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,9 +55,10 @@ body {
     margin: 0 auto;
 }
 
+    
 /* Navbar Links */
 .navbar a {
-    color: var(--text-color);
+    color: var(--background-color);
     text-decoration: none;
     padding: 14px;
     font-size: 17px;
@@ -59,7 +67,7 @@ body {
 
 .navbar a:hover {
     background-color: var(--text-color);
-    color: white;
+    color: var(--background-color);
 }
 
 /* Common styles */
@@ -69,7 +77,7 @@ img {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
 }
 
 .description {
@@ -253,12 +261,14 @@ a {
     background-color: #003bb5;
     transform: scale(1.05);
 }
-.arabic-text{
+
+.arabic-text {
     font-family: 'Droid Arabic Kufi', serif;
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.8rem 0;
 }
+
 hr {
     grid-column: 1/-1;
     width: 88%;
@@ -289,5 +299,3 @@ hr {
         box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
 }
-
-
