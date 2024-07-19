@@ -196,7 +196,7 @@ a {
 }
 
 .profile_profileImg img {
-    width: 200px;
+    width: 100px;
     hight:auto;
     border-radius: 50%;
     animation: pulse 2s infinite;
