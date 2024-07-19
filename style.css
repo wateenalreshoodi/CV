@@ -54,8 +54,11 @@ body {
     max-width: 1000px;
     margin: 0 auto;
 }
+.navbar-nav {
+    margin-left: 20px; /* Adjust the value as needed */
+  }
 
-    
+
 /* Navbar Links */
 .navbar a {
     color: var(--background-color);
@@ -72,8 +75,7 @@ body {
 
 /* Common styles */
 img {
-    width: 50%;
-    height: auto;
+    width: 100%;
 }
 
 a {
@@ -146,7 +148,7 @@ a {
         padding: 3rem;
         gap: 7rem;
     }
-
+}
 
 .profile {
     grid-column: 1/-1;
@@ -182,7 +184,6 @@ a {
     .group-3 {
         flex-direction: column;
     }
-        
 }
 
 /* Profile */
@@ -198,7 +199,7 @@ a {
 }
 
 .profile_profileImg img {
-    width: 100%;
+    width: 100px;
     height: auto;
     border-radius: 50%;
     animation: pulse 2s infinite;
@@ -219,7 +220,6 @@ a {
 .downloadBtn:hover {
     transform: scale(1.15);
     color: var(--primary-color);
-    
 }
 
 /* Contact Form */
@@ -288,7 +288,6 @@ hr {
         margin: 0 auto;
     }
 }
-
 
 @keyframes pulse {
     0% {
