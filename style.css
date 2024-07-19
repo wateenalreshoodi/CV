@@ -196,8 +196,8 @@ a {
 }
 
 .profile_profileImg img {
-    width: 100px;
-    hight:auto;
+    width: 80px;
+    hight: 80px;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
@@ -217,6 +217,7 @@ a {
 .downloadBtn:hover {
     transform: scale(1.15);
     color: var(--primary-color);
+    
 }
 
 /* Contact Form */
