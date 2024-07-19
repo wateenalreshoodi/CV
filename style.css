@@ -190,13 +190,14 @@ a {
 }
 
 .profile_profileImg {
-    max-width: 1000px;
+    max-width: 250px;
     border-radius: 50%;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .profile_profileImg img {
-    width: 100%;
+    width: 150px;
+    hight:auto;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
