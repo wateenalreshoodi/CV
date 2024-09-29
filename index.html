@@ -1,62 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
-    <!-- start head -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="icon" type="image/png" href="Logo3.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <!-- end head -->
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <!-- start body -->
-    <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="navbar-container">
             <a class="navbar-brand" href="#">
                 <img src="./Logo3.png" alt="Wateen Alreshoodi" width="50" height="50">
             </a>
-            <!-- <a class="navbar-brand" href="#">Wateen Alreshoodi</a> -->
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutme">About me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="CV.pdf" download="CV.pdf">
-                        <i data-feather="download"></i></a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/wateenalreshoodi">
-                            <i data-feather="github"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/wateen-alreshoodi-24311629a/">
-                            <i data-feather="linkedin"></i>
-                        </a>
-                    </li>
-                    <!-- Dark/Light Mode Toggle -->
-                    <li class="nav-item">
-                        <a class="nav-link" id="mode-toggle" href="#">
-                            <span>&#9728;</span> <!-- Sun icon for dark/light mode -->
-                        </a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="CV.pdf" download="CV.pdf"><i data-feather="download"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/wateenalreshoodi"><i data-feather="github"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/wateen-alreshoodi-24311629a/"><i data-feather="linkedin"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" id="mode-toggle" href="#"><span>&#9728;</span></a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Profile and Content Sections -->
     <div class="container">
         <div class="profile">
             <div class="profile_container">
@@ -64,39 +39,31 @@
                     <img src="./Logo3.png" alt="Wateen Alreshoodi">
                 </div>
                 <div class="aboutme">
-                    <h1 class="profile_name">
-                        <span class="profile_name_firstname">Wateen</span>
-                        <span class="profile_name_lastname">Alreshoodi</span>
-                    </h1>
-                    <p class="profile_title">Computer Science</p>
-                    <p class="description">
-                        I'm a computer science student at Qassim University. I'm interested in AI, web design, and software engineering. Through my studies and projects, I've developed strong programming and design skills. I also co-own a gifts and events store called Banah with my sisters, giving me business experience in marketing and operations. I'm excited to continue growing my professional skills and work on innovative projects.
-                    </p>
+                    <h1 class="profile_name">Wateen Alreshoodi</h1>
+                    <p class="profile_title">Computer Science Student</p>
+                    <p class="description">I'm a computer science student at Qassim University...</p>
                     <a class="downloadBtn" href="CV.pdf" download="CV.pdf">Download CV</a>
                 </div>
             </div>
         </div>
-        
+
         <div class="group-1">
-            <!-- Skills & Abilities -->
-            <div class="skills">
+            <div class="skills card">
                 <h3 class="title">Skills & Abilities</h3>
                 <ul class="skill_list">
                     <li class="item_title">Languages</li>
                     <li class="item_subtitle">C & C++</li>
-                    <li class="item_subtitle">HTML & CSS</li>  
-                    <li class="item_subtitle">Java</li> 
+                    <li class="item_subtitle">HTML & CSS</li>
+                    <li class="item_subtitle">Java</li>
                     <li class="item_title">Others</li>
                     <li class="item_subtitle">Leadership</li>
-                    <li class="item_subtitle">Research skills</li> 
-                    <li class="item_subtitle">Problem Solving</li> 
-                    <li class="item_subtitle">Team work</li>
-                    <li class="item_subtitle">Artificial Intelligence</li>   
+                    <li class="item_subtitle">Research skills</li>
+                    <li class="item_subtitle">Problem Solving</li>
+                    <li class="item_subtitle">Teamwork</li>
+                    <li class="item_subtitle">Artificial Intelligence</li>
                 </ul>
             </div>
-            
-            <!-- Education -->
-            <div class="edu">
+            <div class="edu card">
                 <h3 class="title">Education</h3>
                 <div class="edu_item">
                     <p class="item_preTitle">2019-Present</p>
@@ -104,9 +71,7 @@
                     <p class="item_subtitle">Qassim University</p>
                 </div>
             </div>
-            
-            <!-- Certification -->
-            <div class="certification">
+            <div class="certification card">
                 <h3 class="title">Certification</h3>
                 <div class="certification_item">
                     <p class="item_preTitle">2024</p>
@@ -118,59 +83,43 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="group-2">
-            <!-- Courses -->
-            <div class="course">
+            <div class="course card">
                 <h3 class="title">Courses</h3>
-                <div class="course_item">
-                    <ul class="course_list">
-                        <li class="item_subtitle">Algorithm Analysis and Design</li>
-                        <li class="item_subtitle">Communication Skills and Ethics Issues</li>
-                        <li class="item_subtitle">Computer Network</li>
-                        <li class="item_subtitle">Software Engineering</li>
-                        <li class="item_subtitle">Introduction to Computer Security</li> 
-                    </ul>
-                </div>
+                <ul class="course_list">
+                    <li class="item_subtitle">Algorithm Analysis and Design</li>
+                    <li class="item_subtitle">Communication Skills</li>
+                    <li class="item_subtitle">Computer Networks</li>
+                    <li class="item_subtitle">Software Engineering</li>
+                    <li class="item_subtitle">Introduction to Computer Security</li>
+                </ul>
             </div>
-            
-            <!-- Project -->
-            <div class="project">
+            <div class="project card">
                 <h3 class="title">Project</h3>
-                <div class="project_item">
-                    <h4 class="item_title">Software Engineer Course</h4>
-                    <p class="description">An application designed to support small businesses by providing various functionalities such as worker management, delivery services, accounting assistance, etc.</p>
-                </div>
+                <h4 class="item_title">Software Engineer Course</h4>
+                <p class="description">An application designed to support small businesses...</p>
             </div>
-            
-            <!-- Language -->
-            <div class="language">
+            <div class="language card">
                 <h3 class="title">Language</h3>
-                <div class="language_items"> 
-                    <p class="item_title">English</p>
-                    <p class="item_title">Arabic</p>
-                </div>
+                <p class="item_title">English</p>
+                <p class="item_title">Arabic</p>
             </div>
         </div>
-        
+
         <hr>
-        
+
         <div class="group-3">
-            <!-- Contact -->
-            <div id="contact" class="contact">
+            <div id="contact" class="contact card">
                 <h3 class="title">Contact</h3>
-                <div class="contact_info">
-                    <p class="description">+966 *********</p>
-                    <div class="description">
-                        <a href="mailto:wateenalrshoudi@gmail.com" class="description">
-                            <i data-feather="mail"></i>
-                            <br><span>wateenalrshoudi@gmail.com</span>
-                        </a>
-                    </div>
+                <p class="description">+966 *********</p>
+                <div class="description">
+                    <a href="mailto:wateenalrshoudi@gmail.com" class="description">
+                        <i data-feather="mail"></i><br><span>wateenalrshoudi@gmail.com</span>
+                    </a>
                 </div>
             </div>
-            <!-- Contact Form Section -->
-            <div class="contact-form">
+            <div class="contact-form card">
                 <h3 class="title">للتواصل</h3>
                 <form>
                     <div class="mb-3">
@@ -191,27 +140,14 @@
         </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- Popper.js (necessary for Bootstrap's dropdowns and tooltips) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
-    <!-- Feather Icons -->
     <script>
-        feather.replace()
-    </script>
-    <!-- Dark/Light Mode Toggle Script -->
-    <script>
+        feather.replace();
         document.getElementById('mode-toggle').addEventListener('click', function() {
             let theme = document.documentElement.getAttribute('data-bs-theme');
-            if (theme === 'dark') {
-                document.documentElement.setAttribute('data-bs-theme', 'light');
-                this.querySelector('span').innerHTML = '&#9790;'; // Moon icon
-            } else {
-                document.documentElement.setAttribute('data-bs-theme', 'dark');
-                this.querySelector('span').innerHTML = '&#9728;'; // Sun icon
-            }
+            document.documentElement.setAttribute('data-bs-theme', theme === 'dark' ? 'light' : 'dark');
+            this.querySelector('span').innerHTML = theme === 'dark' ? '&#9790;' : '&#9728;';
         });
     </script>
 </body>
